@@ -19,7 +19,7 @@ OBJS    := $(patsubst %.$(SRCEXT),$(OBJDIR)/%.o,$(SRCS))
 DEBUG    = -g
 INCLUDES = -I./external
 CFLAGS   = -Wall -pedantic -ansi -c $(DEBUG) $(INCLUDES)
-LDFLAGS  = -lGLEW -lglut -lGLU
+LDFLAGS  = -lGLEW -lglut -lGLU -lGL
 
 
 #_________________________DO NOT EDIT ANYTHING BELOW THIS POINT RE
